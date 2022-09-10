@@ -1,8 +1,8 @@
 //! ====================Code Challenge 1==================
 let markBMI = 78 / 1.69 ** 2;
 let johnBMI = 92 / 1.95 ** 2;
-console.log(`Mark BMI is ${markBMI.toFixed(2)}`);
-console.log(`John BMI is ${johnBMI.toFixed(2)}`);
+console.log(`Mark's BMI is ${markBMI.toFixed(2)}`);
+console.log(`John's BMI is ${johnBMI.toFixed(2)}`);
 
 //======== ***Another Solution ***=======================
 console.log("====*** Another Solution ***====");
@@ -17,9 +17,9 @@ function clac_BMI(mass, height) {
   return BMI.toFixed(2);
 }
 let mark_BMI = clac_BMI(mark_mass, mark_height);
-console.log(`Mark BMI is ${mark_BMI}`);
+console.log(`Mark's BMI is ${mark_BMI}`);
 let john_BMI = clac_BMI(john_mass, john_height);
-console.log(`John BMI is ${john_BMI}`);
+console.log(`John's BMI is ${john_BMI}`);
 // ========================================================
 console.log("====*** Your BMI ***====");
 
